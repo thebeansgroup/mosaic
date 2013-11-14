@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/gregbell/active_admin.git
-  revision: 6e834455884c07acc4ef365074e734595a707db4
+  revision: 7ad6ec39d959c70f580d7eb74fd84b57143e56e7
   specs:
     activeadmin (1.0.0.pre)
       arbre (~> 1.0)
@@ -14,6 +14,19 @@ GIT
       kaminari (~> 0.13)
       rails (>= 3.2, < 4.1)
       ransack (~> 1.0)
+      sass-rails
+
+PATH
+  remote: /Users/ad/Projects/thebeansgroup/rails/plinth
+  specs:
+    sb-styleguide (1.0.1)
+      actionpack (> 3.1)
+      activesupport (> 3.1)
+      compass-rails (~> 2.0.alpha.0)
+      haml (> 3.1)
+      haml-coderay
+      modular-scale (> 1.0)
+      railties (> 3.1)
       sass-rails
 
 GEM
@@ -52,6 +65,8 @@ GEM
       sass (>= 3.2.0)
       thor
     builder (3.1.4)
+    chunky_png (1.2.9)
+    coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -59,7 +74,13 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
-    devise (3.2.0)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rails (2.0.alpha.0)
+      compass (>= 0.12.2, < 0.14)
+    devise (3.2.1)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
@@ -71,8 +92,12 @@ GEM
       actionpack (>= 3.0)
     formtastic-epiceditor (0.0.6)
       rails (~> 4.0.0)
+    fssm (0.2.10)
     haml (4.0.4)
       tilt
+    haml-coderay (0.2.0)
+      coderay
+      haml
     haml-rails (0.4)
       actionpack (>= 3.1, < 4.1)
       activesupport (>= 3.1, < 4.1)
@@ -101,10 +126,13 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    maruku (0.6.1)
-      syntax (>= 1.0.0)
+    maruku (0.7.0)
     mime-types (1.25)
     minitest (4.7.5)
+    modular-scale (1.0.6)
+      compass (>= 0.12.1)
+      sass (>= 3.2.0)
+      sassy-math (>= 1.5)
     multi_json (1.8.2)
     mysql2 (0.3.14)
     orm_adapter (0.5.0)
@@ -141,6 +169,8 @@ GEM
       railties (>= 4.0.0, < 5.0)
       sass (>= 3.1.10)
       sprockets-rails (~> 2.0.0)
+    sassy-math (1.5)
+      compass (~> 0.11)
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
@@ -153,7 +183,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
-    syntax (1.0.0)
     thor (0.18.1)
     thread_safe (0.1.3)
       atomic
@@ -176,6 +205,7 @@ PLATFORMS
 DEPENDENCIES
   activeadmin!
   coffee-rails (~> 4.0.0)
+  compass-rails (~> 2.0.alpha.0)
   formtastic-epiceditor
   haml
   haml-rails
@@ -185,6 +215,7 @@ DEPENDENCIES
   mysql2
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
+  sb-styleguide!
   sdoc
   turbolinks
   uglifier (>= 1.3.0)

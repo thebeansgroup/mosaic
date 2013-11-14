@@ -15,7 +15,8 @@ gem 'haml-rails'
 gem 'maruku'
 
 # Change
-# gem 'sb-styleguide', path: "/Users/ad/Projects/thebeansgroup/rails/plinth"  # :git => "git://github.com/thebeansgroup/plinth.git", :branch => "dok/develop"
+gem 'compass-rails', '~> 2.0.alpha.0'
+gem 'sb-styleguide', path: "/Users/ad/Projects/thebeansgroup/rails/plinth"  # :git => "git://github.com/thebeansgroup/plinth.git", :branch => "dok/develop"
 
 # ActiveAdmin
 gem 'activeadmin', github: 'gregbell/active_admin'
@@ -28,6 +29,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
+
+gem 'ember-source', '~> 1.1.2'
+gem 'ember-rails'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'

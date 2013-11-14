@@ -1,3 +1,55 @@
-body {
-  background-color: #f3f3f3;
-}
+@charset "UTF-8";
+
+@import "styleguide";
+
+// ======================================================
+// Settings grids
+// ======================================================
+
+// Max container width
+$container-width: 800px;
+
+$baby: 'baby-', 2, 10px;
+$sister: 'sister-', 4, 15px, "min", 655px;
+$mother: 'mother-', 8, 20px, "min", $container-width;
+// Declare grid
+$grids : $baby, $sister, $mother;
+
+
+// ======================================================
+// Stylguide
+// ======================================================
+
+@import "styleguide/base/_all";
+@import "styleguide/modules/_all-grid";
+@import "styleguide/modules/_all-no-grid";
+
+
+// ======================================================
+// Default grids
+// ======================================================
+
+@import "styleguide/grid/_grid";
+
+
+// ======================================================
+// Build grid sizes
+// ======================================================
+
+@include create-column-sizes($grids);
+
+// ======================================================
+// Site Base Styles
+// ======================================================
+
+// @import 'base/all';
+
+
+// ======================================================
+// Site modules
+// ======================================================
+
+// @import 'modules/coderay';
+// @import 'modules/webfont_table';
+// @import 'modules/layout_examples';
+// 

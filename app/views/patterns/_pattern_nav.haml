@@ -1,0 +1,3 @@
+%ul
+  - @patterns.each do |pattern|
+    %li= link_to pattern.name, "##{pattern.name.parameterize}"
