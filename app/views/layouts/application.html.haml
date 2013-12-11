@@ -5,15 +5,7 @@
     %title= "Layout Example - SB Style Guide"
     = javascript_include_tag "lib/modernizr"
     = sassie_stylesheets "application"
-
-  %body.page_classes
-
-    -# Standard navigation
-    = render :partial => "layouts/main_nav"
-    .row
-      .mother-one.column
-        %ul
-          %li item
-      .mother-seven.column
-        = yield
     = javascript_include_tag  "application"
+  %body.page_classes
+    = yield
+

@@ -1,0 +1,11 @@
+<div class="navbar">{{outlet navbar}}</div>
+
+<h1>Patterns</h1>
+
+  {{#each}}
+    <li>{{#linkTo 'pattern' this}}{{name}}{{/linkTo}}</li>
+  {{else}}
+    <li>There are no patterns.</li>
+  {{/each}}
+
+{{outlet}}
