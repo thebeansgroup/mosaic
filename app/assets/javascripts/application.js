@@ -1,5 +1,7 @@
 //= require jquery
 //= require handlebars
+//= require plinth/plugins/tbg-switch
+//= require showdown
 //= require ember
 //= require ember-data
 //= require_self
