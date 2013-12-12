@@ -16,7 +16,7 @@ gem 'maruku'
 
 # Change
 gem 'compass-rails', '~> 2.0.alpha.0'
-gem 'sb-styleguide', path: "/Users/ad/Projects/thebeansgroup/rails/plinth"  # :git => "git://github.com/thebeansgroup/plinth.git", :branch => "dok/develop"
+gem 'plinth', '0.0.1.beta.3'  # path: "/Users/ad/Projects/thebeansgroup/rails/plinth"  # :git => "git://github.com/thebeansgroup/plinth.git", :branch => "dok/develop"
 
 # ActiveAdmin
 gem 'activeadmin', github: 'gregbell/active_admin'
