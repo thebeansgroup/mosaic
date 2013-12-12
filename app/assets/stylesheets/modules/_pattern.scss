@@ -6,6 +6,12 @@
   color: $main-color;
   margin: ms(3) 0 ms(6);
 
+  .pattern_example {
+    margin: ms(2) 0;
+    padding: ms(1);
+    border: 1px dotted $main-color;
+  }
+
   .pattern_haml {
     position: relative;
     padding-bottom: ms(1)*0.25;

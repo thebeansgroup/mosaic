@@ -1,4 +1,5 @@
 class Pattern < ActiveRecord::Base
+  attr_accessor :html
   has_many :taggings
   has_many :tags, through: :taggings
 
