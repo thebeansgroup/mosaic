@@ -1,14 +1,11 @@
 class TagsController < ApplicationController
   def index
     @tags = Tag.all
-    respond_to do |format|
-        format.html 
-        format.json  { render :json => @tags }
-      end
-
+    render :json => @tags
   end
 
   def show
-    @patterns = Pattern.tagged_with( params[:id] )
+    @tag = Tag.find( params[:id] )
+    render :json =>  @tag
   end
 end

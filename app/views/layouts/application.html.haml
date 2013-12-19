@@ -5,6 +5,8 @@
     %title= "Layout Example - SB Style Guide"
     = javascript_include_tag "lib/modernizr"
     = sassie_stylesheets "application"
+    :javascript
+      window.mosaic_api_url = "#{Rails.application.config.mosaic_api_url}";
     = javascript_include_tag  "application"
   %body.page_classes
     = yield

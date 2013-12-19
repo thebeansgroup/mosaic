@@ -3,5 +3,5 @@
 Mosaic.Router.map ()->
   @resource 'patterns',{ path: '/' }, ->
     @resource 'pattern', path: ':pattern_id'
-    @resource 'tag', path: 'tag/:tag_name'
+    @resource 'tag', path: 'tag/:tag_id'
 

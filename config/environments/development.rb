@@ -28,4 +28,6 @@ Mosaic::Application.configure do
   config.assets.debug = true
 
   config.ember.variant = :development
+
+  config.mosaic_api_url = "http://127.0.0.1:3000"
 end
