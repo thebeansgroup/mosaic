@@ -6,7 +6,9 @@ gem 'rails', '4.0.0'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
+# Dev helpers
 gem 'awesome_print'
+gem 'seed_dump'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

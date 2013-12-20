@@ -29,5 +29,5 @@ Mosaic::Application.configure do
 
   config.ember.variant = :development
 
-  config.mosaic_api_url = "http://127.0.0.1:3000"
+  config.mosaic_api_url = "http://localhost:3000"
 end
