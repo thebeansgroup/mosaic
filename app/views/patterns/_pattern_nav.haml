@@ -1,0 +1,4 @@
+%ul
+  %li= '{{#linkTo "patterns"}}Patterns{{/linkTo}}'.html_safe
+  - @patterns.each do |pattern|
+    %li= link_to pattern.name, "##{pattern.name.parameterize}"

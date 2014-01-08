@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %title= "Layout Example - SB Style Guide"
+    = javascript_include_tag "lib/modernizr"
+    = sassie_stylesheets "application"
+    = stylesheet_link_tag "mosaic"
+    :javascript
+      window.mosaic_api_url = "#{Rails.application.config.mosaic_api_url}";
+    = javascript_include_tag  "application"
+  %body.page_classes
+    = yield
+
