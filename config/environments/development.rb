@@ -28,5 +28,4 @@ Mosaic::Application.configure do
   config.assets.debug = true
 
 
-  config.mosaic_api_url = "http://localhost:3000"
 end

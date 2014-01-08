@@ -34,8 +34,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 
-# gem 'ember-source', '~> 1.1.2'
-# gem 'ember-rails'
+gem 'ember-source', '~> 1.1.2'
+gem 'ember-rails'
 
 gem 'mosaic_consumer', path: "/Users/ad/Projects/thebeansgroup/rails/mosaic_consumer"
 
