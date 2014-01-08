@@ -19,8 +19,8 @@ gem 'haml-rails'
 gem 'maruku'
 
 # Change
-gem 'compass-rails', '~> 2.0.alpha.0'
-gem 'plinth', '0.0.1.beta.3'  # path: "/Users/ad/Projects/thebeansgroup/rails/plinth"  # :git => "git://github.com/thebeansgroup/plinth.git", :branch => "dok/develop"
+# gem 'compass-rails', '~> 2.0.alpha.0'
+# gem 'plinth', '0.0.1.beta.3'  # path: "/Users/ad/Projects/thebeansgroup/rails/plinth"  # :git => "git://github.com/thebeansgroup/plinth.git", :branch => "dok/develop"
 
 # ActiveAdmin
 gem 'activeadmin', github: 'gregbell/active_admin'
@@ -34,8 +34,10 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 
-gem 'ember-source', '~> 1.1.2'
-gem 'ember-rails'
+# gem 'ember-source', '~> 1.1.2'
+# gem 'ember-rails'
+
+gem 'mosaic_consumer', path: "/Users/ad/Projects/thebeansgroup/rails/mosaic_consumer"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'

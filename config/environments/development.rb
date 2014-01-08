@@ -27,7 +27,6 @@ Mosaic::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.ember.variant = :development
 
   config.mosaic_api_url = "http://localhost:3000"
 end
