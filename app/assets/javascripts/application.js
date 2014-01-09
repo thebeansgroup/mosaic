@@ -1,1 +1,3 @@
-// = require 'mosaic_consumer/application'
+//= require jquery
+//= require plinth/plugins/tbg-switch
+//= require plinth/plugins/tbg-close

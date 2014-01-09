@@ -9,7 +9,6 @@ Mosaic::Application.routes.draw do
   #
   # Main App Routes
   #
-  root "home#index"
   resources :patterns, only: [:index, :show]
   resources :tags, only: [:index, :show]
 end
