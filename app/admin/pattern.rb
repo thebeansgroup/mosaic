@@ -10,7 +10,7 @@ ActiveAdmin.register Pattern do
     column :name
     column :description
     actions :defaults => false do |pattern|
-      link_to "View", pattern_path(pattern)
+      link_to "View", mosaic_path(:anchor => "/#{pattern.id}")
     end
     actions :defaults => false do |pattern|
       link_to "Edit", edit_admin_pattern_path(pattern)
