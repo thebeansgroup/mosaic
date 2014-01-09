@@ -37,7 +37,7 @@ gem 'turbolinks'
 gem 'ember-source', '~> 1.1.2'
 gem 'ember-rails'
 
-gem 'mosaic_consumer', path: "/Users/ad/Projects/thebeansgroup/rails/mosaic_consumer"
+gem 'mosaic_consumer', git: "https://github.com/thebeansgroup/mosaic_consumer"
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'

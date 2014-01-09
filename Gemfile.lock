@@ -16,8 +16,9 @@ GIT
       ransack (~> 1.0)
       sass-rails
 
-PATH
-  remote: ../mosaic_consumer
+GIT
+  remote: https://github.com/thebeansgroup/mosaic_consumer
+  revision: 28700bcb7288a6d0b6791905a020542672e2f937
   specs:
     mosaic_consumer (0.0.1)
       coffee-rails (~> 4.0.0)
